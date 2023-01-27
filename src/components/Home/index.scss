@@ -1,0 +1,61 @@
+.home-page {
+
+    .text-zone {
+        z-index: 1;
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 60%;
+        max-height: 90%;
+    }
+    
+    h1 {
+        z-index: 1;
+        color: #fff;
+        font-size: 72px;
+        margin: 0;
+        font-family: Ubuntu;
+        font-weight: 500;
+
+        img {
+            width: 32px;
+            margin-left: 20px;
+            opacity: 0;
+            height: auto;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.7s;
+        }
+    }
+
+    h2 {
+        z-index: 1;
+        color: #9e9e9e;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: Ubuntu;
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+
+    .flat-button {
+        color: #ff69b4;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: ubuntu;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid #ff69b4;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover {
+            background: #ff69b4;
+            color: #333;
+        }
+    }
+}
