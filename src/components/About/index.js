@@ -25,9 +25,7 @@ const About = () => {
                         />
                     </h1>
                     <p>
-                        I'm a sophomore at Rutgers University studying Computer Science and Mathematics.
-                        I'm also working part time at Apple as a Technical Expert, where I assist customers 
-                        with troubleshooting and repairing their Apple products.
+                        I'm a junior at Rutgers University, pursuing a double major in Computer Science and Mathematics.
                     </p>
                     <p>
                         I'm passionate about building software that is both functional and beautiful, creating user experiences
@@ -36,13 +34,13 @@ const About = () => {
                         I hope to pursue and research in the future.
                     </p>
                     <p>
-                        In my free time, I enjoy developing personal projects, playing video games, and reading books. At the moment, 
-                        I'm experimenting with using neural networks to pilot a self-driving car in JavaScript, and I'm working on a
-                        Discord bot that notifies user of product restocks and price changes (on my github!).
+                        In my free time, I enjoy working on personal projects, and playing video games. My current project is a minecraft
+                        server dashboard that communicates with remotely with a docker instance on my local machine. As for games, I'm playing
+                        Starfield right now :)
                     </p>
                     <p>
-                        I'm currently looking to gain valuable work experience in computer science, mathematics, and academia. I'm
-                        seeking research opportunities and internship positions for the Summer of 2023, where I hope to demonstrate
+                        I'm looking to gain valuable work experience in computer science, mathematics, and academia. I'm
+                        seeking research opportunities and internship positions for the Summer of 2024, where I hope to demonstrate
                         and foster skills in software development, problem solving, and team communication.
                     </p>
                 </div>
