@@ -39,7 +39,7 @@ const About = () => {
                                     and Proximal Policy Optimization. 
                                 </p>
                             </div>
-
+                            <a href="https://github.com/mvte/robot-guidance" className='flat-button'>view</a>
                         </div>
                         <div className="imageHolder">
                             <img src="https://via.placeholder.com/200" alt="placeholder" />
@@ -63,7 +63,7 @@ const About = () => {
                                         information it has.
                                     </p>
                                 </div>
-
+                                <a href="https://github.com/mvte/aliens" className='flat-button'>view</a>
                             </div>
                             <div className="imageHolder">
                                 <img src="https://via.placeholder.com/200" alt="placeholder" />
@@ -109,9 +109,10 @@ const About = () => {
                                     A dashboard for managing and monitoring a Minecraft server for a small community. The server itself is self-hosted and dockerized 
                                     on my Linux machine. The dashboard communicates with the server via a RESTful API, and provides a user-friendly interface for 
                                     managing server settings, interacting with the server console, viewing a real-time map of the world, and monitoring server 
-                                    performance/information.
+                                    performance/information. To view the site, use the test user credentials: username: user, password: password.
                                 </p>
                             </div>
+                            <a href="https://dash.mvte.net/" className='flat-button'>view</a>
                         </div>
                         <div className="imageHolder">
                             <img src="https://via.placeholder.com/200" alt="placeholder" />
@@ -135,6 +136,7 @@ const About = () => {
                                     other sniping bots.
                                 </p>
                             </div>
+                            <a href="https://github.com/mvte/scout" className='flat-button'>view</a>
                         </div>
                         <div className="imageHolder">
                             <img src="https://via.placeholder.com/200" alt="placeholder" />
@@ -157,6 +159,7 @@ const About = () => {
                                     It uses a MySQL database to store user information and game data. 
                                 </p>
                             </div>
+                            <a href="https://github.com/mvte/maestro" className='flat-button'>view</a>
                         </div>
                         <div className="imageHolder">
                             <img src="https://via.placeholder.com/200" alt="placeholder" />
