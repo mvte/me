@@ -1,5 +1,5 @@
 import './index.scss';
-import { Wireframe, Vertex } from './wireframe.js';
+import { Wireframe, Vertex } from './wireframe.jsx';
 import { useRef, useEffect } from 'react';
 
 /**

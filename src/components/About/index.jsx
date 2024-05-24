@@ -1,7 +1,7 @@
 import AnimatedLetters from '../AnimatedLetters';
 import { useState, useEffect } from 'react';
 import Loader from 'react-loaders';
-import Portrait from '../../assets/images/IMG_2154.png';
+import Portrait from '../../assets/IMG_2154.png';
 import './index.scss'
 
 const About = () => {

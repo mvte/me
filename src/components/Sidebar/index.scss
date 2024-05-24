@@ -74,7 +74,7 @@
             &:after {
                 content: '';
                 font-size: 9px;
-                letter-spacing: 2px;
+                letter-spacing: 1px;
                 position: absolute;
                 bottom: 0;
                 display: block;
@@ -100,6 +100,12 @@
         a.contact-link {
             &:after {
                 content: 'CONTACT';
+            }
+        }
+
+        a.projects-link {
+            &:after {
+                content: 'PROJECTS';
             }
         }
 
