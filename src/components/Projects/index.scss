@@ -8,6 +8,21 @@
         display: flex;
         margin: 32px 0;
         align-items: center;
+
+        h2 {
+            animation: pulse 1s;
+            animation-delay: 1.1s;
+        }
+
+        .caption {
+            animation: pulse 1s;
+            animation-delay: 1.2s;
+        }
+
+        p {
+            animation: pulse 1s;
+            animation-delay: 1.3s !important;
+        }
     }
 
     hr {
