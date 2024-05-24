@@ -60,7 +60,7 @@ const About = () => {
                                     aliens - probabilistic decision making
                                 </h2>
                                 <div className="caption">
-                                        march 2024 | python, numpy, seaborn, bayesian inference
+                                        march 2024 | python, numpy, cupy, seaborn, bayesian inference
                                 </div>
                                 <div className="description">
                                     <p>
@@ -93,7 +93,7 @@ const About = () => {
                             <div className="description">
                                 <p>
                                     A home server that I've been building and maintaining on the Beelink SER5 platform since May of 2023. The server is a self-hosted Linux machine that runs 
-                                    various services, such as my discord bots (along with their databases) and a minecraft server. The server is dockerized and uses Nginx as a reverse 
+                                    various services, such as my Discord bots (along with their databases) and a minecraft server. The machine's services are dockerized and it uses Nginx as a reverse 
                                     proxy to route traffic to the appropriate services. In addition to the services mentioned, this machine also utilizes a Watchtower container,
                                     which ensures seamless updates of my containers with near-zero downtime. Combined with GitHub Actions, I've managed to 
                                     create an efficient CI/CD pipeline for the personal projects that I host on this machine.
