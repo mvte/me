@@ -2,6 +2,11 @@ import AnimatedLetters from '../AnimatedLetters';
 import { useState, useEffect } from 'react';
 import Loader from 'react-loaders';
 import './index.scss'
+import RobotGuidance from './ProjectAssets/robot-guidance.mov';
+import Aliens from './ProjectAssets/aliens.mov';
+import HomeServer from './ProjectAssets/home-server.jpg';
+import Scout from './ProjectAssets/scout.jpg';
+import Maestro from './ProjectAssets/maestro.jpg';
 
 const About = () => {
     
@@ -42,7 +47,9 @@ const About = () => {
                             <a href="https://github.com/mvte/robot-guidance" className='flat-button'>view</a>
                         </div>
                         <div className="imageHolder">
-                            <img src="https://via.placeholder.com/200" alt="placeholder" />
+                            <video autoPlay loop muted height="300px">
+                                <source src={RobotGuidance} type="video/mp4" />
+                            </video>
                         </div>
                     </div>
                     <hr />
@@ -60,13 +67,17 @@ const About = () => {
                                         A project that explored the use of Bayesian inference to make decisions in a probabilistic and adverse environment. The project 
                                         involved developing an autonomous agent that is capable of navigating a grid-like ship, avoiding aliens, and rescuing crew members
                                         all while receiving limited information. The agent uses a Bayesian network to model the environment and make decisions based on the 
-                                        information it has.
+                                        information it has. In the demo to the right, you can see the agent (red) in action, avoiding aliens (purple) and rescuing crew members
+                                        (orange) while updating its beliefs about the environment. The middle graph is where the agent believes the crew members are, and the
+                                        right graph is where the agent believes the aliens are.
                                     </p>
                                 </div>
                                 <a href="https://github.com/mvte/aliens" className='flat-button'>view</a>
                             </div>
                             <div className="imageHolder">
-                                <img src="https://via.placeholder.com/200" alt="placeholder" />
+                            <video autoPlay loop muted height="180px">
+                                <source src={Aliens} type="video/mp4" />
+                            </video>
                             </div>
                     </div>
                     <hr />
@@ -91,7 +102,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="imageHolder">
-                            <img src="https://via.placeholder.com/200" alt="placeholder" />
+                            <img src={HomeServer} height="240px" alt="home server" />
                         </div>
                     </div>
                     <hr />
@@ -115,7 +126,6 @@ const About = () => {
                             <a href="https://dash.mvte.net/" className='flat-button'>view</a>
                         </div>
                         <div className="imageHolder">
-                            <img src="https://via.placeholder.com/200" alt="placeholder" />
                         </div>
                     </div>
                     <hr />
@@ -130,7 +140,7 @@ const About = () => {
                             </div>
                             <div className="description">
                                 <p>
-                                    A discord bot that notifies Rutgers students when a class they are interested in has an opening. The bot is written in Java using 
+                                    A Discord bot that notifies Rutgers students when a class they are interested in has an opening. The bot is written in Java using 
                                     the JDA library. It's hosted on a local machine and communicates with a MySQL database to store user snipes and Rutgers course
                                     information. It leverages parallel processing, proximity to Rutgers, and in-memory caching to maintain an edge over
                                     other sniping bots.
@@ -139,7 +149,7 @@ const About = () => {
                             <a href="https://github.com/mvte/scout" className='flat-button'>view</a>
                         </div>
                         <div className="imageHolder">
-                            <img src="https://via.placeholder.com/200" alt="placeholder" />
+                            <img src={Scout} height="240px" alt="scout logo" />
                         </div>
                     </div>
                     <hr />
@@ -154,7 +164,7 @@ const About = () => {
                             </div>
                             <div className="description">
                                 <p>
-                                    A discord bot that allows users to play music in a voice channel, play casino games, like blackjack, with each other, and
+                                    A Discord bot that allows users to play music in a voice channel, play casino games, like blackjack, with each other, and
                                     access various quality of life commands.  Like scout, it's written in Java using the JDA library and hosted on the same machine. 
                                     It uses a MySQL database to store user information and game data. 
                                 </p>
@@ -162,7 +172,7 @@ const About = () => {
                             <a href="https://github.com/mvte/maestro" className='flat-button'>view</a>
                         </div>
                         <div className="imageHolder">
-                            <img src="https://via.placeholder.com/200" alt="placeholder" />
+                            <img src={Maestro} height="240px" alt="maestro logo" />
                         </div>
                     </div>
                     <hr />
