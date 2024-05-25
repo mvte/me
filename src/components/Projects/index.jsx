@@ -8,7 +8,7 @@ import HomeServer from './ProjectAssets/home-server.jpg';
 import Scout from './ProjectAssets/scout.jpg';
 import Maestro from './ProjectAssets/maestro.jpg';
 
-const About = () => {
+const Projects = () => {
     
     const[letterClass, setLetterClass] = useState('text-animate');
     useEffect(() => {
@@ -185,4 +185,4 @@ const About = () => {
     );
 }
 
-export default About
+export default Projects
