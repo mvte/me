@@ -25,7 +25,7 @@ const About = () => {
                         />
                     </h1>
                     <p>
-                        I'm a junior at Rutgers University, pursuing a double major in Computer Science and Mathematics.
+                        I'm a rising senior at Rutgers University, pursuing a double major in Computer Science and Mathematics.
                     </p>
                     <p>
                         I'm passionate about building software that is both functional and beautiful, creating user experiences
@@ -34,13 +34,13 @@ const About = () => {
                         I hope to pursue and research in the future.
                     </p>
                     <p>
-                        In my free time, I enjoy working on personal projects, and playing video games. My current project is a minecraft
-                        server dashboard that communicates with remotely with a docker instance on my local machine. As for games, I'm playing
-                        Starfield right now :)
+                        In my free time, I enjoy working on personal projects, reading books, and playing video games. My current project is in the works, and
+                        I'm excited to share it with you soon. I'm currently reading "Dune" by Frank Herbert, as well as "Algorithmic Trading and Reinforcement Learning"
+                        by Thomas Spooner (hint: my next project is related to this paper!). As for games, I'm playing Terraria and NIGHTRUNNER right now :)
                     </p>
                     <p>
                         I'm looking to gain valuable work experience in computer science, mathematics, and academia. I'm
-                        seeking research opportunities and internship positions for the Summer of 2024, where I hope to demonstrate
+                        seeking research opportunities and full time positions for 2025, where I hope to demonstrate
                         and foster skills in software development, problem solving, and team communication.
                     </p>
                 </div>
