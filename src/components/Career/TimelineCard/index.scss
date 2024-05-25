@@ -1,0 +1,75 @@
+.card-container {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin-left: -0.5%;
+    transition: 250ms;
+    animation: fadeInUp 1s;
+
+    &:hover {
+        transform: translate(0, -8%)
+    }
+
+    &:nth-of-type(1) {
+        animation-delay: 0.7s;
+    }
+    &:nth-of-type(2) {
+        animation-delay: 0.8s;
+    }
+    &:nth-of-type(3) {
+        animation-delay: 0.9s;
+    }
+    &:nth-of-type(4) {
+        animation-delay: 1s;
+    }
+}   
+
+
+
+.timeline-dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #FF69B4;
+    z-index: 1;
+}
+
+.timeline-line {
+    border-top: 2px solid #9e9e9e;
+    width: 64px;
+}
+
+.timeline-card {
+    padding: 20px;
+    background-color: #181818;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.timeline-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.timeline-content .company-location {
+    color: white;
+    font-size: 20px;
+}
+
+.timeline-content .position {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.timeline-content .date {
+    color: white;
+    font-size: 16px;
+}
+
+.timeline-content .description {
+    color: white;
+    font-size: 16px;
+}
