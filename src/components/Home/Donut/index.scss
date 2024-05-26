@@ -1,16 +1,5 @@
 .donut-container {
     z-index: 0;
-    width: 425px;
-    height: 425px;
-    position: absolute;
-    top: 0;
-    right: 20%;
-    bottom: 0;
-    left: auto;
-    margin: auto;
-
-    canvas {
-        width: 95%;
-        height: 95%;
-    }
+    min-width: 425px;
+    min-height: 425px;
 }
