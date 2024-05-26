@@ -1,13 +1,14 @@
 .home-page {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    transform: translateX(10%);
 
     .text-zone {
+        display: flex;
+        flex-direction: column;
         z-index: 1;
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 60%;
-        max-height: 90%;
+        width: 50%;
     }
     
     h1 {
@@ -52,6 +53,7 @@
         float: left;
         animation: fadeIn 1s 1.8s backwards;
         white-space: nowrap;
+        width: fit-content;
 
         &:hover {
             background: #ff69b4;
