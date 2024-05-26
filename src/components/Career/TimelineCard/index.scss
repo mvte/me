@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     width: 75%;
-    margin-left: -0.5%;
+    margin-left: -8px;
     transition: 250ms;
     animation: fadeInUp 1s;
 
@@ -27,8 +27,8 @@
 
 
 .timeline-dot {
-    width: 16px;
-    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
     border-radius: 50%;
     background-color: #FF69B4;
     z-index: 1;
@@ -50,26 +50,56 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: white;
 }
 
 
 .timeline-content .company-location {
-    color: white;
     font-size: 20px;
 }
 
 .timeline-content .position {
-    color: white;
     font-size: 24px;
     font-weight: bold;
 }
 
-.timeline-content .date {
-    color: white;
+.timeline-content .date,
+.timeline-content .description {
     font-size: 16px;
 }
 
 .timeline-content .description {
-    color: white;
-    font-size: 16px;
+    text-align: right;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .card-container {
+        width: 100%;
+    }
+
+    .timeline-content .company-location {
+        font-size: 18px;
+    }
+    
+    .timeline-content .position {
+        font-size: 22px;
+    }
+    
+    .timeline-content .date,
+    .timeline-content .description {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .timeline-content {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .timeline-line {
+        width: 32px;
+    }
 }
