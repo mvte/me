@@ -159,6 +159,9 @@
         min-height: auto;
         display: flex;
         align-items: center;
+        position: fixed;
+        bottom: 0;
+        top: auto;
 
         ul {
             display: none;
