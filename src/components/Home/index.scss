@@ -64,6 +64,8 @@
 
 @media screen and (max-width: 1200px) {
     .home-page {
+        margin-top: 0 !important;
+
         h1 {
             font-size: 60px;
         }
@@ -85,7 +87,6 @@
         transform: none;
         display: flex;
         justify-content: space-evenly;
-        margin-left: 12px;
     }
 }
 
@@ -118,7 +119,6 @@
         transform: none;
         margin: 0;
         margin-bottom: 5%;
-        padding: 0 12px;
         align-items: center;
         justify-content: space-evenly;
         display: flex;
@@ -128,7 +128,7 @@
 
         .text-zone {
             width: 100%;
-            
+            margin-left: 5%;
             h1 {
                 font-size: 40px;
             }
