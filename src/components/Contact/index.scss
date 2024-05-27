@@ -70,3 +70,22 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .contact-page {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: fit-content;
+
+        .text-zone {
+            transform: none;
+            position: initial;
+            width: 90%;
+
+            p {
+                margin-top: 0;
+            }
+        }
+    }
+}
