@@ -1,15 +1,63 @@
+.about-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 2%;
+
+    .text-zone {
+        position: initial;
+        transform: none;
+    }
+
+    .clear {
+        display: none;
+    }
+}
+
 .me {
     width: 35%;
     height: 50%;
-    top: 25%;
-    position: absolute;
-    right: 1%;
     overflow: hidden;
     animation: pulse 1s;
     object-fit: cover;
     border: 1px solid whitesmoke;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .about-page p {
     margin: 6px 0 !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .about-page {
+        margin-left: 0;
+        transform: translateY(-5%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-page {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        transform: none;
+
+        .clear {
+            display: block;
+            min-height: 70px;
+        }
+
+        .text-zone {
+            width: 85%;
+            text-align: justify;
+        }
+
+        .me {
+            margin: 24px 0;
+            position: initial;
+            width: 85%;
+            min-height: 40%;
+        }
+
+    }
 }

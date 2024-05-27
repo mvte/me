@@ -14,7 +14,7 @@ const Career = () => {
 
     return (
         <>
-            <div className='container projects-page'>
+            <div className='container careers-page'>
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters
@@ -54,6 +54,7 @@ const Career = () => {
                         />
                     </div>
                 </div>
+                <div className="clear" />
             </div>
             <Loader type='cube-transition' />
         </>

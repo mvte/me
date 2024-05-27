@@ -75,7 +75,7 @@ const Projects = () => {
                                 <a href="https://github.com/mvte/aliens" className='flat-button'>view</a>
                             </div>
                             <div className="imageHolder">
-                            <video autoPlay loop muted height="180px">
+                            <video id="aliens" autoPlay loop muted height="180px">
                                 <source src={Aliens} type="video/mp4" />
                             </video>
                             </div>
@@ -179,6 +179,7 @@ const Projects = () => {
 
                     <div className="space" />
                 </div>
+                <div className="clear" />
             </div>
             <Loader type='cube-transition' />
         </>

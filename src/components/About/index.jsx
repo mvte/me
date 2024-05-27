@@ -45,6 +45,7 @@ const About = () => {
                     </p>
                 </div>
                 <img className='me' src={Portrait} alt='me' />
+                <div className="clear" />
             </div>
             <Loader type='cube-transition' />
         </>

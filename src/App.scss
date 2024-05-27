@@ -32,3 +32,13 @@ textArea {
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
 }
+
+@media screen and (max-width: 1200px) {
+  .loader-active {
+    transform: none;
+  }
+
+  .cube-transition {
+    transform: none;
+  }
+}
