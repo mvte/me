@@ -1,8 +1,11 @@
 .about-page {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin-left: 2%;
+    justify-content: center;
+    gap: 3rem;
+    width: calc(100vw - 60px);
+    margin-left: 60px;
+
 
     .text-zone {
         position: initial;
@@ -22,6 +25,7 @@
     object-fit: cover;
     border: 1px solid whitesmoke;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    margin-left: 4rem;
 }
 
 .about-page p {
